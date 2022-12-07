@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spacebk"
+    tools:context=".profil">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cikisYap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="70dp"
+        android:background="#36237D"
+        android:text="Çıkış Yap"
+        android:textColor="#F37454"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hesapSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:background="#383092"
+        android:text="Hesabı Sil"
+        android:textColor="#F37454"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/turuncusarigradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="51dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="145dp"
+        android:shadowColor="@color/gri"
+        android:text="Email:"
+        android:textColor="#161743"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="94dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:shadowColor="@color/gri"
+        android:text="Kullanıcı Adı:"
+        android:textColor="#161743"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/profilusername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="94dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:shadowColor="@color/gri"
+        android:text="Kayıt Tarihi:"
+        android:textColor="#161743"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/usernameText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    /
+
+    <TextView
+        android:id="@+id/timestampyazi"
+        android:layout_width="282dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="."
+        android:textColor="#9E085A"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/profilusername"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <TextView
+        android:id="@+id/profilIsim"
+        android:layout_width="283dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:text="."
+        android:textColor="#9E085A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toEndOf="@+id/emailText"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/profilusername"
+        android:layout_width="282dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="11dp"
+        android:text="."
+        android:textColor="#9E085A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/usernameText"
+        app:layout_constraintTop_toBottomOf="@+id/profilIsim" />
+
+    <TextView
+        android:id="@+id/profilusername2"
+        android:layout_width="181dp"
+        android:layout_height="21dp"
+        android:text="."
+        android:textColor="#F37654"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/naberText"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/naberText"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="147dp"
+        android:shadowColor="@color/gri"
+        android:text="Nasılsın? "
+        android:textColor="#F26F55"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/profilusername2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="168dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="113dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ghost" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

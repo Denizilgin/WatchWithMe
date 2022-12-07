@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gri"
+    tools:context=".MainKayitOl">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kayitBtn"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/textarkaplanpembe"
+        android:text="Kayıt Ol"
+        android:textColor="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/girisDon"
+        android:layout_width="124dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/pembegrigradient"
+        android:text="Girişe Dön"
+        android:textColor="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="115dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pembeaccbox" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarkaplanpembe"
+        android:drawableLeft="@drawable/circleaccboxgri"
+        android:ems="10"
+        android:hint="E-posta adresiniz"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarkaplanpembe"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:ems="10"
+        android:hint="Kullanıcı adı oluştur"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarkaplanpembe"
+        android:drawableLeft="@drawable/lockgri"
+        android:ems="10"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+</androidx.constraintlayout.widget.ConstraintLayout>

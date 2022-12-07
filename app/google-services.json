@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068155438064",
+    "project_id": "wwmapp-7f80a",
+    "storage_bucket": "wwmapp-7f80a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068155438064:android:28159898f5a6f66ea4d335",
+        "android_client_info": {
+          "package_name": "com.deniz.watchwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068155438064-183spaafdg0olf2a0kg52bjj35ju3jd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-pCGSpBXNGi6AdDfJPNaP1ySx-PE5Eeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068155438064-183spaafdg0olf2a0kg52bjj35ju3jd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
